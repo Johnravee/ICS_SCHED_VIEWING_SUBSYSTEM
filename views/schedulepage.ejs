@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cmdicsschedules</title>
+        <link rel="stylesheet" href="/styles/schedule.css">
+        <script defer src="/js/schedulepage.js"></script>
+        <link rel="shortcut icon" href="/images/cmdtransparent.png" type="image/x-icon">
+    </head>
+    
+    <body>
+    
+        <div class="container">
+            <div class="bar"></div>
+    
+            <div class="main-content">
+    
+                <div class="image-wrapper">
+                    <img src="/images/cmdtransparent.png" alt="cdmlogo">
+                    <img src="/images/icstransparent.png" alt="icslogo">
+                </div>
+    
+                <div class="input-wrapper">
+                    <h1>SCHEDULE VIEWING</h1>
+                    <input type="text" id="inputsearch" placeholder="Enter a section" oninput="inputEvent()">
+                </div>
+    
+            </div>
+    
+            <div class="bar"></div>
+        </div>
+    
+    
+    
+        <div class="result-container">
+    
+            <div class="result-wrapper">
+    
+                <div class="table-container" id="myTableContainer">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th>Section</th>
+                                <th>Subject</th>
+                                <th>Time Duration</th>
+                                <th>Room Number</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                       
+                          
+    
+                        </tbody>
+                    </table>
+                </div>
+    
+                <button class="exit-button" onclick="hideTable()">Exit</button>
+            </div>
+    
+        </div>
+    
+    </body>
+    
+  
+    
+    </html>
+</body>
+</html>
