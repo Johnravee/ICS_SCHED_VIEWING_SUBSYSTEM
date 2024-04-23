@@ -104,16 +104,16 @@ h1{
     max-height: 80%;
     overflow-y: auto;
     flex-direction: column-reverse;
-    
+    border-radius: 10px;
 }
 
 .table-container {
     margin: 10px;
-        max-height: 400px; /* Set maximum height for the table container */
-        overflow-y: auto; /* Enable vertical scrolling */
-        border: 1px solid #ddd; /* Add border for visual separation */
+        max-height: 400px; 
+        overflow-y: auto; 
+        border: 1px solid #ddd; 
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin-bottom: 20px; /* Add margin to separate button from table */
+        margin-bottom: 20px; 
     }
 
     table {
@@ -151,4 +151,15 @@ h1{
         width: 10%;
         align-self: flex-end;
         margin: 10px;
+    }
+
+    button{
+        padding: 15px;
+       margin-top: 20px;
+       font-weight: bold;
+       letter-spacing: 1.5px;
+       font-size: 1.3em;
+       width: 20%;
+       color: #404040;
+       background-color: #F6DA1E;
     }
