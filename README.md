@@ -92,10 +92,10 @@ To set up the Institute of Computer Studies Schedule Viewing Website locally, fo
 
 4.Start the development server.   
 
-### Usage
+## Usage
 1.Once the application is running, navigate to http://localhost:4000/.
 
 2.Use the search functionality to find specific classes or instructors.
 
-### License
+## License
 This project is licensed under the [MIT License](LICENSE).
