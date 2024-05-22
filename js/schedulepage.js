@@ -26,6 +26,15 @@
    const clickSearch = () => {
     const inputElement = document.getElementById('inputsearch');
     let value = inputElement.value;
+
+
+
+         if (value === "") {
+            alert("Empty field detected")
+            return
+         }
+
+                  document.querySelector("#loaderModal").style.display = "flex";
     
     if (value.length > 0 ){
             fetch(`/search?search=${value}`, {
@@ -43,10 +52,13 @@
         if (datas.length === 0) {
 
                         document.querySelector(".result-container").style.display = "none";
+                        document.querySelector("#loaderModal").style.display = "none";
+                        alert("No data found!")
                         return;
                     }
 
                 inputElement.value = null
+                document.querySelector("#loaderModal").style.display = "none";
 
             datas.forEach(data => {
                 const table = document.querySelector("tbody")

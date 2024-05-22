@@ -4,6 +4,20 @@
     "express": "^4.19.2",
     "mysql2": "^3.9.4",
     "node": "^18.20.2",
+    "nodemon": "^3.1.0",
     "router": "^1.3.8"
-  }
+  },
+  "name": "ics_sched_viewing_subsystem",
+  "version": "1.0.0",
+  "description": "Welcome to the Institute of Computer Studies Schedule Viewing Website! This repository contains the source code for our web application designed to help students and instructors view schedules conveniently.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev" : "nodemon ./server/server.js",
+    "start": "node ./server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
