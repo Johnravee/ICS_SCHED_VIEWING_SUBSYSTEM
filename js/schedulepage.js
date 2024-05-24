@@ -64,12 +64,14 @@
                 const table = document.querySelector("tbody")
                 table.innerHTML += `
                     <tr>
+                    <td>${data.RoomNumber}</td>
                         <td>${data.InstructorName}</td>
-                        <td>${data.Day}</td>
-                        <td>${data.Section}</td>
                         <td>${data.Subject}</td>
+                        <td>${data.Section}</td>
+                        <td>${data.Day}</td>
                         <td>${convertTime(data.StartTime)} - ${convertTime(data.EndTime)} </td>
-                        <td>${data.RoomNumber}</td>
+                        <td>${data.Duration}</td>
+
                     <tr>
                 
                 `
